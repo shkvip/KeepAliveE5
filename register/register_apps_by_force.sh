@@ -86,8 +86,6 @@ get_refresh_token() {
 
     node server.js "$config_file" &
     node client.js "$config_file"
-
-    wait
 }
 
 handle_single_account() {
