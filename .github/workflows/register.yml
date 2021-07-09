@@ -31,8 +31,8 @@ jobs:
 
       - name: Register app
         env:
-          USER: ${{ secrets.USER }}
-          PASSWD: ${{ secrets.PASSWD }}
+          USER: ${{ secrets.shkvip365.onmicrosoft.com }}
+          PASSWD: ${{ secrets.!Sk%e&X7ZR&g }}
         run: |
           cd register
           bash register_apps_by_force.sh
